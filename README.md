@@ -15,10 +15,7 @@ This portfolio is a fully responsive web application built using **React.js** an
 * **Weather Forecast App:** A dynamic, three-page weather application featuring live API mapping and immersive video backgrounds.
 
 ## 🛠️ Tech Stack
-* **Frontend:** React.js, Bootstrap 5
-* **Mobile Development:** Flutter, Dart
-* **Backend:** Node.js, Express.js
-* **Database:** MySQL
+* **Frontend:** React.js, Tailwind CSS
 * **Tools:** GitHub, Vercel
 
 ## 📬 Contact
