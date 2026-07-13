@@ -1,16 +1,31 @@
-# React + Vite
+# 🚀 Majd Harb - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This project showcases my skills, experience, and the software engineering projects I have developed as a Computer Science and Information Technology student.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+👉 **[Click Here to View Live Demo](https://portfolio-zd7t-seven.vercel.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 About
+This portfolio is a fully responsive web application built using **React.js** and **Bootstrap 5**. It serves as a centralized hub to display my work, ranging from web-based dashboards to full-stack mobile applications.
 
-## React Compiler
+## ✨ Key Projects
+* **Landing Page Restaurant:** A modern, fully responsive restaurant landing page featuring a dynamic menu and seamless user experience.
+* **Admin Panel:** A dynamic admin dashboard with dark/light mode toggling, seamless routing, and interactive data visualization using Recharts.
+* **Motorcycles Mobile App:** A comprehensive full-stack mobile application for motorcycle enthusiasts, built with Flutter and powered by a secure Node.js/Express and MySQL backend.
+* **Weather Forecast App:** A dynamic, three-page weather application featuring live API mapping and immersive video backgrounds.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+* **Frontend:** React.js, Bootstrap 5
+* **Mobile Development:** Flutter, Dart
+* **Backend:** Node.js, Express.js
+* **Database:** MySQL
+* **Tools:** GitHub, Vercel
 
-## Expanding the ESLint configuration
+## 📬 Contact
+Feel free to reach out for collaborations or opportunities!
+* **LinkedIn:** [https://www.linkedin.com/in/majd-harb-cs/](https://www.linkedin.com/in/majd-harb-cs/)
+* **GitHub:** [https://github.com/majdharb123](https://github.com/majdharb123)
+* **Email:** [majdhaeb37@gmail.com](mailto:majdhaeb37@gmail.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Built with passion by Majd Harb.*
