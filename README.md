@@ -6,30 +6,22 @@ Welcome to my personal portfolio! This project showcases my skills and the softw
 👉 **[Click Here to View Live Demo](https://portfolio-zd7t-seven.vercel.app/)**
 
 ## 🌐 About
-This portfolio is a fully responsive web application built using **React.js** and **Tailwind Css**. It serves as a centralized hub to display my work, ranging from web-based dashboards to full-stack mobile applications.
+This portfolio is a fully responsive web application built using **React.js** and **Tailwind CSS**. It serves as a centralized hub to display my work, ranging from web-based dashboards to full-stack mobile applications.
 
-✨ Key Projects
+## ✨ Featured Projects
 
-    SAWA Platform: A comprehensive, real-time transportation ecosystem designed to bridge the gap between commuters (Zamils) and transit operators (Captains).
-
-    SAWA Mobile Application: A cross-platform Flutter application featuring live GPS tracking via Google Maps, real-time coordination via Socket.io, and secure booking management.
-
-    SAWA Administrative Dashboard: A robust full-stack web application (React.js frontend and Node.js/Express backend) that provides centralized tools for user verification, route oversight, and live fleet monitoring.
-
-    Landing Page Restaurant: A modern, fully responsive restaurant landing page featuring a dynamic menu and seamless user experience.
-
-    Admin Panel: A dynamic admin dashboard with dark/light mode toggling, seamless routing, and interactive data visualization using Recharts.
-
-    Motorcycles Mobile App: A comprehensive full-stack mobile application for motorcycle enthusiasts, built with Flutter and powered by a secure Node.js/Express and MySQL backend.
-
-    Weather Forecast App: A dynamic, three-page weather application featuring live API mapping and immersive video backgrounds.
+* **SAWA Mobile Application:** A cross-platform Flutter application featuring live GPS tracking with Google Maps, real-time coordination using Socket.IO, and secure booking management.
+* **SAWA Administrative Dashboard:** A full-stack administrative dashboard built with React.js, Tailwind CSS, Node.js, Express.js, and MySQL for user verification, route oversight, and fleet monitoring.
+* **Motorcycles Mobile App:** A full-stack Flutter application powered by a Node.js, Express.js, and MySQL backend with secure authentication and product management.
+* **Weather Forecast App:** A responsive three-page React application featuring real-time forecasts from the OpenWeatherMap API and dynamic video backgrounds.
+* **Admin Panel:** A responsive React dashboard featuring dark and light themes, routing, and interactive data visualization with Recharts.
+* **Restaurant Landing Page:** A modern, responsive restaurant interface featuring a dynamic menu and user-friendly design.
     
 ## 🛠️ Tech Stack
 * **Frontend:** React.js, Tailwind CSS
-* **Mobile Development:** Flutter, Dart
-* **Backend:** Node.js, 
-* **Database:** MySQL
-* **Tools:** GitHub, Vercel
+* **Build Tool:** Vite
+* **Deployment:** Vercel
+* **Version Control:** Git and GitHub
 
 ## 📬 Contact
 Feel free to reach out for collaborations or opportunities!
