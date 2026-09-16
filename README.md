@@ -1,6 +1,6 @@
 # 🚀 Majd Harb - Portfolio
 
-Welcome to my personal portfolio! This project showcases my skills, experience, and the software engineering projects I have developed as a Computer Science and Information Technology student.
+Welcome to my personal portfolio! This project showcases my skills and the software engineering projects I have developed as a Computer Science graduate and full-stack developer.
 
 ## 🔗 Live Demo
 👉 **[Click Here to View Live Demo](https://portfolio-zd7t-seven.vercel.app/)**
