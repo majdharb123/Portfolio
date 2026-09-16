@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Mail, Download, Menu, X, Terminal, FolderGit2 } from "lucide-react";
 import LandingPage from "./assets/LandingPage.png";
 import AdminPanel from "./assets/AdminPanel.png";
@@ -48,7 +48,6 @@ const NAV_LINKS = [
   { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
   { id: "projects", label: "Projects" },
-  { id: "experience", label: "Experience" },
   { id: "contact", label: "Contact" },
 ];
 
@@ -59,25 +58,6 @@ const SKILL_GROUPS = [
   { key: "embedded", label: "embedded_iot", items: ["Arduino IDE"] },
   { key: "security", label: "security", items: ["Cybersecurity Fundamentals", "OWASP", "Secure Coding"] },
   { key: "tools", label: "tools", items: ["Git", "Version Control", "Debugging"] },
-];
-
-const TIMELINE = [
-  {
-    tag: "current",
-    date: "2026 — Present",
-    title: "Software Engineering Trainee",
-    org: "42 Beirut",
-    desc:
-      "Enrolled in the intensive, project-based software engineering program, building skills through a peer-to-peer, self-directed learning model recognized across the global 42 Network.",
-  },
-  {
-    tag: "graduated",
-    date: "2026",
-    title: "B.S. Computer Science",
-    org: "Lebanese International University (LIU)",
-    desc:
-      "Graduated with a Bachelor of Science in Computer Science, with hands-on training across web development, cybersecurity fundamentals, and full-stack engineering.",
-  },
 ];
 
 const PROJECT_TEMPLATE = [
@@ -98,28 +78,28 @@ const PROJECT_TEMPLATE = [
   {
     name: "Motorcycles",
     tagline: "A comprehensive full-stack mobile application for motorcycles, built with Flutter and powered by a secure Node.js/Express and MySQL backend.",
-    stack: ["Flutter", "MySQL", "Node.js", "jsonwebtoken", "bcryptjs"],
+    stack: ["Flutter", "Node.js", "Express.js", "MySQL", "JWT", "bcrypt"],
     github: "https://github.com/majdharb123/Motorcycles",
     image: Moto,
   },
   {
     name: "Weather App",
     tagline: "A responsive three-page weather application featuring dynamic video backgrounds and live API mapping for real-time forecasts.",
-    stack: ["React.js", "OpenWeatherMap Api", "Bootstrap 5 "],
-    github: "hhttps://github.com/majdharb123/Weather-App",
+    stack: ["React.js", "OpenWeatherMap API", "Bootstrap 5"],
+    github: "https://github.com/majdharb123/Weather-App",
     image: Weather,
   },
   {
     name: "SAWA Admin",
     tagline: "A centralized web-based administrative dashboard for managing transit operations, user verifications, and route coordination.",
-    stack: ["React.js", "Tailwind CSS", "Node.js", "MySQL", "Socket.io", "Google Maps API", "JWT", "Bcrypt" , "Firebase"],
+    stack: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MySQL", "Socket.IO", "Google Maps API", "JWT", "bcrypt", "Firebase"],
     github: "https://github.com/majdharb123/Sawa-admin",
     image: Radar,
   },
   {
     name: "SAWA App",
-    tagline: "SAWA is an AI-powered Peer-to-Peer (P2P) transportation platform specifically tailored for the Lebanese market. ",
-    stack: ["Flutter", "Go_Router", "Node.js", "MySQL", "Socket.io", "Google Maps API", "JWT", "Bcrypt" , "Firebase", "SharedPreferences"],
+    tagline: "A real-time Peer-to-Peer (P2P) transportation platform tailored for the Lebanese market, connecting commuters with transit operators.",
+    stack: ["Flutter", "GoRouter", "Node.js", "Express.js", "MySQL", "Socket.IO", "Google Maps API", "JWT", "bcrypt", "Firebase", "SharedPreferences"],
     github: "https://github.com/majdharb123/Sawa-App",
     image: HomeCaptain,
   },
@@ -182,13 +162,10 @@ const CODE_LINES = [
 function TypingCode() {
   const [lineIdx, setLineIdx] = useState(0);
   const [charIdx, setCharIdx] = useState(0);
-  const [done, setDone] = useState(false);
+  const done = lineIdx >= CODE_LINES.length;
 
   useEffect(() => {
-    if (lineIdx >= CODE_LINES.length) {
-      setDone(true);
-      return;
-    }
+    if (done) return;
     const currentLine = CODE_LINES[lineIdx];
     if (charIdx < currentLine.length) {
       const t = setTimeout(() => setCharIdx((c) => c + 1), 18);
@@ -200,7 +177,7 @@ function TypingCode() {
       }, 120);
       return () => clearTimeout(t);
     }
-  }, [lineIdx, charIdx]);
+  }, [lineIdx, charIdx, done]);
 
   return (
     <div className="font-mono text-sm sm:text-[15px] leading-relaxed">
@@ -339,10 +316,10 @@ export default function Portfolio() {
                 Full-Stack Developer · Tripoli, Lebanon
               </p>
               <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
-                I'm a Computer Science graduate (LIU, 2026) and full-stack developer currently
-                sharpening my craft at 42 Beirut. I build responsive, end-to-end web and mobile
-                applications — from front-end interfaces in HTML, CSS, and JavaScript, to
-                back-end logic and APIs in React, Node.js, and Laravel.
+                I'm a Computer Science graduate (LIU, 2026) and full-stack developer focused
+                on building responsive, end-to-end web and mobile applications — from
+                front-end interfaces with React to back-end REST APIs with Node.js,
+                Express.js, and Laravel.
               </p>
               <div className="flex flex-wrap justify-center sm:justify-start gap-3 pt-5">
                 <a
@@ -406,7 +383,7 @@ export default function Portfolio() {
           </Reveal>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {SKILL_GROUPS.map((group, i) => (
+            {SKILL_GROUPS.map((group) => (
               <Reveal key={group.key}>
                 <div className="h-full rounded-xl border border-slate-800 bg-slate-900/50 p-5 hover:border-teal-400/40 transition-colors">
                   <div className="font-mono text-xs mb-3">
