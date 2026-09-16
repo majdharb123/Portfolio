@@ -35,7 +35,7 @@ This portfolio is a fully responsive web application built using **React.js** an
 Feel free to reach out for collaborations or opportunities!
 * **LinkedIn:** [https://www.linkedin.com/in/majd-harb-cs/](https://www.linkedin.com/in/majd-harb-cs/)
 * **GitHub:** [https://github.com/majdharb123](https://github.com/majdharb123)
-* **Email:** [majdhaeb37@gmail.com](mailto:majdhaeb37@gmail.com)
+* **Email:** [majdharb37@gmail.com](mailto:majdhaeb37@gmail.com)
 
 ---
 *Built with passion by Majd Harb.*
