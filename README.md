@@ -22,6 +22,8 @@ Developing practical software projects through structured front-end and back-end
 
 ## Featured Projects
 
+Developing and deploying practical frontend and backend applications during my ongoing internship. Completed a frontend Task Manager, extended it into a full-stack application with a REST API and PostgreSQL database, and built ExpenseFlow, a personal finance tracker. Implemented input validation, tested API endpoints with Postman, and deployed web applications and backend services on Render.
+
 ### SAWA — P2P Transportation Platform
 
 A cross-platform transportation platform connecting passengers with service providers through seat booking, recurring subscriptions, live GPS tracking, real-time chat, notifications, and an administrative dashboard.
@@ -50,20 +52,20 @@ An end-to-end voice translation system that receives audio from a Flutter applic
 
 ## Technical Skills
 
-* **Front End:** HTML5, CSS3, JavaScript, React.js, Tailwind CSS, Bootstrap, Responsive Web Design
-* **Back End:** Node.js, Express.js, REST APIs, Laravel, PHP, WebSocket
-* **Mobile and IoT:** Flutter, ESP32, Arduino IDE
-* **Databases:** MySQL, PostgreSQL
-* **Tools and Deployment:** Git, GitHub, Vite, Render, Vercel
-* **Fundamentals:** C, Object-Oriented Programming, Data Structures, Algorithms, Problem Solving
+- **Front End:** HTML5, CSS3, JavaScript, React.js, Tailwind CSS, Bootstrap, Responsive Web Design
+- **Back End:** Node.js, Express.js, REST APIs, Laravel, PHP, WebSocket
+- **Mobile and IoT:** Flutter, ESP32, Arduino IDE
+- **Databases:** MySQL, PostgreSQL
+- **Tools and Deployment:** Git, GitHub, Vite, Render, Vercel
+- **Fundamentals:** C, Object-Oriented Programming, Data Structures, Algorithms, Problem Solving
 
 ## Portfolio Technologies
 
-* React.js
-* Tailwind CSS
-* Vite
-* Lucide React
-* Vercel
+- React.js
+- Tailwind CSS
+- Vite
+- Lucide React
+- Vercel
 
 ## Run Locally
 
@@ -99,9 +101,9 @@ npm run build
 
 ## Contact
 
-* **LinkedIn:** [linkedin.com/in/majd-harb-cs](https://www.linkedin.com/in/majd-harb-cs/)
-* **GitHub:** [github.com/majdharb123](https://github.com/majdharb123)
-* **Email:** [majdharb37@gmail.com](mailto:majdharb37@gmail.com)
+- **LinkedIn:** [linkedin.com/in/majd-harb-cs](https://www.linkedin.com/in/majd-harb-cs/)
+- **GitHub:** [github.com/majdharb123](https://github.com/majdharb123)
+- **Email:** [majdharb37@gmail.com](mailto:majdharb37@gmail.com)
 
 ---
 

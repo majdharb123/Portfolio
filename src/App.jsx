@@ -12,6 +12,8 @@ import Moto from "./assets/Moto.webp";
 import Weather from "./assets/weather.webp";
 import HomeCaptain from "./assets/HomeCaptain.jpeg";
 import VoiceTranslation from "./assets/VoiceTranslation.png";
+import TaskManager from "./assets/TaskManager.png";
+import ExpenseFlow from "./assets/ExpenseFlow.png";
 
 /* ---------- Custom GitHub icon (lucide-react dropped brand/logo icons) ---------- */
 function GithubIcon({ size = 16, className = "" }) {
@@ -112,6 +114,51 @@ const SKILL_GROUPS = [
 ];
 
 const PROJECT_TEMPLATE = [
+  {
+    name: "ExpenseFlow — Full-Stack Personal Finance Tracker",
+    tagline:
+      "A full-stack personal finance tracker for managing income, expenses, and custom categories, with transaction search and filters, dashboard summaries, monthly activity, and spending charts.",
+    stack: ["JavaScript", "Node.js", "PostgreSQL", "REST APIs", "Render"],
+    image: ExpenseFlow,
+    links: [
+      {
+        label: "Live Demo",
+        url: "https://expenseflow-app-c2an.onrender.com/",
+        type: "demo",
+      },
+      {
+        label: "GitHub Repository",
+        url: "https://github.com/majdharb123/decodelabs_tasks/tree/main/Project-3-Full-Stack-Expense-Tracker",
+        type: "github",
+      },
+    ],
+  },
+  {
+    name: "Full-Stack Task Manager — DecodeLabs Internship",
+    tagline:
+      "A full-stack task management application for creating, editing, completing, and deleting tasks, with priorities, due dates, search, filters, and task statistics. Extends my original frontend Task Manager with a REST API and persistent PostgreSQL storage.",
+    stack: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+    ],
+    image: TaskManager,
+    links: [
+      {
+        label: "Live Demo",
+        url: "https://decodelabs-task-manager.onrender.com/",
+        type: "demo",
+      },
+      {
+        label: "GitHub Repository",
+        url: "https://github.com/majdharb123/decodelabs_tasks/tree/main/Project-2-Full-Stack-Task-Manager",
+        type: "github",
+      },
+    ],
+  },
   {
     name: "SAWA – P2P Transportation Platform",
     tagline:
@@ -543,39 +590,53 @@ export default function Portfolio() {
               </div>
 
               <p className="text-slate-300 leading-relaxed mb-5">
-                Developing practical software projects through structured
-                front-end and back-end development phases while following
-                project requirements, testing functionality, meeting assigned
-                milestones, and maintaining work in public GitHub repositories.
+                Developing and deploying practical frontend and backend
+                applications during my ongoing internship. Completed a frontend
+                Task Manager, extended it into a full-stack application with a
+                REST API and PostgreSQL database, and built ExpenseFlow, a
+                personal finance tracker. Implemented input validation, tested
+                API endpoints with Postman, and deployed web applications and
+                backend services on Render.
               </p>
 
               <ul className="space-y-3 text-sm text-slate-400 mb-6">
                 <li className="flex gap-3">
                   <span className="text-teal-300">▹</span>
-                  Built and deployed a responsive Task Manager using HTML5,
-                  CSS3, and JavaScript.
+                  Developed a frontend Task Manager, then extended it into a
+                  full-stack application with a Node.js and Express.js REST API
+                  and persistent PostgreSQL storage.
                 </li>
 
                 <li className="flex gap-3">
                   <span className="text-teal-300">▹</span>
-                  Implemented DOM manipulation, input validation, task
-                  completion and deletion, and browser persistence using
-                  localStorage.
+                  Built ExpenseFlow, a personal finance tracker with income and
+                  expense management, custom categories, transaction filters,
+                  and dashboard charts.
                 </li>
 
                 <li className="flex gap-3">
                   <span className="text-teal-300">▹</span>
-                  Participating in mentor-led sessions and completing assigned
-                  project milestones on schedule.
+                  Implemented input validation, parameterized SQL queries, and
+                  relational database constraints, and tested API endpoints
+                  using Postman.
+                </li>
+
+                <li className="flex gap-3">
+                  <span className="text-teal-300">▹</span>
+                  Deployed web applications and backend APIs on Render,
+                  connecting the frontend interfaces to PostgreSQL-backed
+                  services.
                 </li>
               </ul>
-
               <div className="flex flex-wrap gap-2">
                 {[
-                  "HTML5",
-                  "CSS3",
                   "JavaScript",
-                  "Responsive Web Design",
+                  "Node.js",
+                  "Express.js",
+                  "PostgreSQL",
+                  "REST APIs",
+                  "Postman",
+                  "Render",
                   "Git",
                   "GitHub",
                 ].map((skill) => (
